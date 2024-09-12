@@ -1,3 +1,9 @@
-p{color: #ff0000;}
-.new{color: rgb(255,255,255,0.9);}
-body{background-color: hsla(300,80%,70%,0.5);}
+p{
+    color: #ff0000;
+}
+.new{
+    color: rgb(255,255,255,0.9);
+}
+body{
+    background-color: hsla(300,80%,70%,0.5);
+}
