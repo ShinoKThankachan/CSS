@@ -1,0 +1,32 @@
+@keyframes move {
+    from{ 
+        transform: translate(0px);
+
+    }
+    to{
+        transform: translate(300px) rotate(360deg) ;
+    }
+    
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.a{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
