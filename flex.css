@@ -1,0 +1,26 @@
+.a{
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.b{
+    flex: 2;
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+}
+.c{
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
