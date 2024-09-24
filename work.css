@@ -1,0 +1,44 @@
+.main1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: blue;
+}
+.logo{
+   text-decoration: solid;
+   font-size: 20px;
+   justify-content: center;
+   align-items: center;
+   
+}
+.home{
+    grid-column: 2/4;
+}
+.a{
+    grid-row: 2/3;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.item1{
+    grid-column: 3/5;
+    grid-row: 2/4;
+}
+.item2{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.item3{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.item4{
+    grid-row: 4/5 ;
+    grid-column: 2/3;
+}
+.item5{
+    grid-row: 4/5;
+    grid-column: 3/4;
+}

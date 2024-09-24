@@ -1,0 +1,35 @@
+.main{
+    width: 100px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+.a{
+    width: 600px;
+    height: 400px;
+    
+}
+.b{
+    width: 600px;
+    height: 400px;
+
+}
+.c{
+    width: 600px;
+    height: 400px;
+    
+}
+.d{
+    width: 600px;
+    height: 400px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
